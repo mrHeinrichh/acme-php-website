@@ -1,0 +1,27 @@
+Mp1 create customer CRUD functions with photo uploads 20pts 
+
+mp2 create pet CRUD functions with photo uploads 20pts
+
+mp3 create employee CRUD functions with photo uploads 20pts
+
+mp4 create pet grooming services CRUD functions with photo uploads of sample haircuts 20pts
+
+unit 1 create a script for pet health consultation or checkup. the vet evaluates the pet's condition
+and enters that information to the app. the vet can choose from a predefined list of common diseases
+ or pet injuries. vet observations/comments are also recorded. use mysql transactions and prepared statements 20pts
+
+unit 2 create a login function for employees. CRUD pages are only accessible to authenticated users. 
+Use sessions 20pts
+
+quiz 1 create a script that will search for a pet and show it's medical history.
+a pet can have multiple checkups. 10pts
+=
+quiz 2 create a database trigger that will audit all customer transactions. 
+when an employee deletes or updates the grooming or medical transaction, the mysql trigger will
+ save the previous records to another table. see previous examples. 10pts 
+quiz 3 create a script that will backup and restore the app's database. 10pts 
+Term Test 30pts
+1. create CRUD scripts for pet grooming transaction. use mysql transactions and prepared statements 25pts
+2. A receipt will be generated after every transaction. the receipt will be shown on a separate page.
+ Use mysql Stored Procedures. 5pts
+database should be in normalized to at least second normal form
